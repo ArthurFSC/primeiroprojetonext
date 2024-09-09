@@ -1,0 +1,58 @@
+/* components/Header/header.module.css */
+
+.header {
+    position: fixed; /* Fixa o header no topo */
+    top: 0;
+    left: 0;
+    width: 100%; /* O header ocupa toda a largura da tela */
+    background-color: #333; /* Cor de fundo cinza escuro */
+    padding: 15px 20px; /* Ajusta o espaçamento interno */
+    border-bottom: 2px solid #444; /* Linha inferior para destacar o header */
+    z-index: 1000; /* Mantém o header sobre outros conteúdos */
+    display: flex; /* Layout flexível */
+    align-items: center; /* Centraliza verticalmente o conteúdo do header */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+.logo {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente a logo */
+    margin-right: 20px; /* Espaço entre a logo e os itens de navegação */
+}
+
+.logoImage {
+    height: 40px; /* Tamanho da imagem da logo */
+    width: auto; /* Mantém a proporção da imagem */
+}
+
+.navList {
+    display: flex; /* Links de navegação em linha */
+    align-items: center; /* Centraliza verticalmente os itens da navegação */
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0;
+    margin: 0;
+}
+
+.navList li {
+    margin: 0 20px; /* Ajusta o espaçamento entre os itens da navegação */
+}
+
+.color {
+    color: white; /* Cor branca para o texto dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    padding: 10px 15px; /* Ajusta o padding dos links */
+    background-color: transparent; /* Fundo transparente */
+    border-radius: 4px; /* Bordas arredondadas */
+    transition: background-color 0.3s ease; /* Transição suave na cor do fundo */
+}
+
+.color:hover {
+    background-color: #444; /* Cor de fundo ao passar o mouse */
+    color: white; /* Garante que o texto fique branco ao passar o mouse */
+}
+
+.clickerContainer {
+    display: flex; /* Alinha o clicker com os itens de navegação */
+    align-items: center; /* Centraliza verticalmente */
+    margin-left: 20px; /* Espaço à esquerda do clicker */
+}

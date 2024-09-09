@@ -1,0 +1,31 @@
+/* components/useToggle/toggle.module.css */
+.buttonContainer {
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+.button {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 12px; /* Rounded corners */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 0 10px red; /* Red shadow */
+    outline: none; /* Remove default outline */
+    margin-bottom: 20px; /* Space between button and text */
+}
+
+.button:hover {
+    background-color: #333; /* Slightly lighter on hover */
+}
+
+.text {
+    font-size: 18px;
+    color: black; /* Color of the text */
+    margin: 0; /* Remove default margin */
+}
